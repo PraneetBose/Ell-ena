@@ -4,7 +4,8 @@ import '../../services/supabase_service.dart';
 import '../../services/google_meet_service.dart';
 
 class CreateMeetingScreen extends StatefulWidget {
-  const CreateMeetingScreen({super.key});
+  final DateTime? initialDateTime;
+   CreateMeetingScreen({super.key, this.initialDateTime});
 
   @override
   State<CreateMeetingScreen> createState() => _CreateMeetingScreenState();

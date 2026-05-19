@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import '../../services/supabase_service.dart';
 
 class CreateTicketScreen extends StatefulWidget {
-  const CreateTicketScreen({super.key});
+  final DateTime? initialDateTime;
+  const CreateTicketScreen({super.key, this.initialDateTime});
 
   @override
   State<CreateTicketScreen> createState() => _CreateTicketScreenState();
