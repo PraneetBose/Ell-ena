@@ -741,7 +741,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
           context,
           MaterialPageRoute(
             builder: (context) =>
-                CreateMeetingScreen(initialDateTime: selectedDateTime),
+                CreateMeetingScreen(),
           ),
         );
         break;
@@ -750,7 +750,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
           context,
           MaterialPageRoute(
             builder: (context) =>
-                CreateTaskScreen(initialDateTime: selectedDateTime),
+                CreateTaskScreen(),
           ),
         );
         break;
@@ -759,7 +759,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
           context,
           MaterialPageRoute(
             builder: (context) =>
-                CreateTicketScreen(initialDateTime: selectedDateTime),
+                CreateTicketScreen(),
           ),
         );
         break;

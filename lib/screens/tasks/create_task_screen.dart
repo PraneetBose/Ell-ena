@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import '../../services/supabase_service.dart';
 
 class CreateTaskScreen extends StatefulWidget {
-  final DateTime? initialDateTime;
-  const CreateTaskScreen({super.key,this.initialDateTime});
+  const CreateTaskScreen({super.key});
 
   @override
   State<CreateTaskScreen> createState() => _CreateTaskScreenState();
